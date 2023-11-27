@@ -8,10 +8,8 @@ package modelo;
  *
  * @author Santiagod
  */
-public class Docente extends Persona {
+public class Docente  {
     
-    public Docente(Integer id, String nombres, String apellidos, Integer edad, String cedula) {
-        super(id, nombres, apellidos, edad, cedula);
-    }
+    
     
 }
