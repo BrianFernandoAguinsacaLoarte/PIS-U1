@@ -108,7 +108,7 @@ public class FrmLogin extends javax.swing.JDialog {
                 exitTxtMouseExited(evt);
             }
         });
-        jPanel1.add(exitTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jPanel1.add(exitTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 20, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
