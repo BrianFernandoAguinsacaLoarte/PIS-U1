@@ -8,6 +8,6 @@ package modelo;
  *
  * @author Usuario 1
  */
-public class Estado {
-    
+public enum Estado {
+    MATRICULADO, REGISTRADO, APROBADO, REPROBADO
 }
