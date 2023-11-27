@@ -16,6 +16,7 @@ public class Persona {
     private String apellidos;
     private Integer edad;
     private String cedula;
+    private String genero;
     
     
     //Constructor
@@ -31,7 +32,6 @@ public class Persona {
     
     
     //Getter and Setter
-
     public Integer getId() {
         return id;
     }
@@ -71,6 +71,20 @@ public class Persona {
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
+    
+     public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+    
+    public String toString(){
+        return nombres;
+    }
+
+   
     
     
 }
