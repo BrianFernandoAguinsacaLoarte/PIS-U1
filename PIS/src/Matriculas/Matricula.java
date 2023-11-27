@@ -8,6 +8,6 @@ package Matriculas;
  *
  * @author Usuario 1
  */
-public class Main {
+public class Matricula {
     
 }
