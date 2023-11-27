@@ -21,15 +21,6 @@ public class Persona {
     
     //Constructor
 
-    public Persona(Integer id, String nombres, String apellidos, Integer edad, String cedula, String genero) {
-        this.id = id;
-        this.nombres = nombres;
-        this.apellidos = apellidos;
-        this.edad = edad;
-        this.cedula = cedula;
-        this.genero = genero;
-    }
-
     
     
     
