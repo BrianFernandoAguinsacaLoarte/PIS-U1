@@ -11,6 +11,7 @@ package modelo;
 public class Materia {
     private Integer idMateria;
     private String nombreMateria;
+    private Curso idcurso;
 
     public Materia() {
     }
