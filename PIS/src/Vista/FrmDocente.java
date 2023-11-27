@@ -40,6 +40,7 @@ public class FrmDocente extends javax.swing.JFrame {
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
+        btnRegistrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -47,23 +48,24 @@ public class FrmDocente extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel1.setText("Registrar Docente");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(308, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(248, 248, 248)
                 .addComponent(jLabel1)
-                .addGap(285, 285, 285))
+                .addContainerGap(248, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(37, 37, 37)
+                .addGap(42, 42, 42)
                 .addComponent(jLabel1)
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.PAGE_START);
@@ -85,21 +87,19 @@ public class FrmDocente extends javax.swing.JFrame {
 
         jLabel6.setText("Genero:");
         jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 60, -1, -1));
-
-        jTextField1.setText("jTextField1");
         jPanel3.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
-
-        jTextField2.setText("jTextField2");
         jPanel3.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, -1, -1));
-
-        jTextField3.setText("jTextField3");
         jPanel3.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
-
-        jTextField4.setText("jTextField4");
         jPanel3.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 30, -1, -1));
-
-        jTextField5.setText("jTextField5");
         jPanel3.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 60, -1, -1));
+
+        btnRegistrar.setText("Registrar");
+        btnRegistrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegistrarActionPerformed(evt);
+            }
+        });
+        jPanel3.add(btnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 200, -1, -1));
 
         jPanel1.add(jPanel3, java.awt.BorderLayout.CENTER);
 
@@ -116,12 +116,16 @@ public class FrmDocente extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 528, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegistrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -159,6 +163,7 @@ public class FrmDocente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnRegistrar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
