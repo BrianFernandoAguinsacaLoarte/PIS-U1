@@ -9,5 +9,33 @@ package Materia;
  * @author juanc
  */
 public class Materia {
+    private Integer idMateria;
+    private String nombreMateria;
+
+    public Materia() {
+    }
+
+    public Materia(Integer idMateria, String nombreMateria) {
+        this.idMateria = idMateria;
+        this.nombreMateria = nombreMateria;
+    }
+
+    public Integer getIdMateria() {
+        return idMateria;
+    }
+
+    public void setIdMateria(Integer idMateria) {
+        this.idMateria = idMateria;
+    }
+
+    public String getNombreMateria() {
+        return nombreMateria;
+    }
+
+    public void setNombreMateria(String nombreMateria) {
+        this.nombreMateria = nombreMateria;
+    }
+    
+    
     
 }
