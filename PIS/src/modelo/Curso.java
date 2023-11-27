@@ -66,10 +66,4 @@ public class Curso {
         this.idMateria = idMateria;
     }
 
-    
-    
-    
-    
-    
-    
 }
