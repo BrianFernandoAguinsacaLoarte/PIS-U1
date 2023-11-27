@@ -10,4 +10,8 @@ package modelo;
  */
 public class Docente extends Persona {
     
+    public Docente(Integer id, String nombres, String apellidos, Integer edad, String cedula) {
+        super(id, nombres, apellidos, edad, cedula);
+    }
+    
 }
